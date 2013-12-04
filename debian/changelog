@@ -1,0 +1,6 @@
+qtconnectivity-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
+
+  * Initial release
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Dec 2013 13:37:13 +0200
+
