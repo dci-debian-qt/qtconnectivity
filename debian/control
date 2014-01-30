@@ -64,7 +64,6 @@ Description: Qt Connectivity module - NFC QML plugin
 Package: qtconnectivity5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5bluetooth5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt Connectivity development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
