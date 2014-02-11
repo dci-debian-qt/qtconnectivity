@@ -5,6 +5,7 @@ qtconnectivity-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
   * Move mkspecs to the new location
   * Make private headers cleaning non version specific
   * Add examples package
+  * Add dependencies to build against the 5.2.1 versions
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Feb 2014 05:10:08 +0000
 
