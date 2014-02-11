@@ -2,6 +2,7 @@ qtconnectivity-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
 
   [ Timo Jyrinki ]
   * New upstream release
+  * Move mkspecs to the new location
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Feb 2014 05:10:08 +0000
 

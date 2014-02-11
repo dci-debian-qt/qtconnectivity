@@ -58,4 +58,4 @@ usr/lib/*/*.prl
 usr/lib/*/*.so
 usr/lib/*/cmake/*
 usr/lib/*/pkgconfig/*
-usr/share/qt5/mkspecs/modules/*
+usr/lib/*/qt5/mkspecs/modules/*
