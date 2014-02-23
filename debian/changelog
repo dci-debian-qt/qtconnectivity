@@ -1,4 +1,4 @@
-qtconnectivity-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.2.1-1) experimental; urgency=medium
 
   [ Timo Jyrinki ]
   * New upstream release
@@ -7,7 +7,7 @@ qtconnectivity-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
   * Add examples package
   * Add dependencies to build against the 5.2.1 versions
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Feb 2014 05:10:08 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 23 Feb 2014 00:01:49 -0300
 
 qtconnectivity-opensource-src (5.2.0-1) experimental; urgency=low
 
