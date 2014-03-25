@@ -1,6 +1,8 @@
-qtconnectivity-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.2.1-2) unstable; urgency=medium
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Mar 2014 22:59:48 -0300
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 24 Mar 2014 23:02:32 -0300
 
 qtconnectivity-opensource-src (5.2.1-1) experimental; urgency=medium
 
