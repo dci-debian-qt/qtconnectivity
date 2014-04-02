@@ -29,15 +29,27 @@ Description: Qt Connectivity Bluetooth module
  This package contains the Bluetooth part of the Qt Connectivity module.
 
 Package: qtdeclarative5-qtbluetooth-plugin
+Architecture: all
+Section: oldlibs
+Depends: ${misc:Depends}, qml-module-qtbluetooth
+Description: transitional dummy package for Qt5's Bluetooth QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-module-qtbluetooth
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5bluetooth5, ${misc:Depends}, ${shlibs:Depends}
-Description: Qt Connectivity module - Bluetooth QML plugin
+Breaks: qtdeclarative5-qtbluetooth-plugin (<< 5.2.1-3~)
+Replaces: qtdeclarative5-qtbluetooth-plugin (<< 5.2.1-3~)
+Description: Qt Connectivity module - Bluetooth QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Bluetooth QML plugin from the Qt Connectivity module.
+ This package contains the Bluetooth QML module from the Qt Connectivity module.
 
 Package: libqt5nfc5
 Architecture: any
@@ -51,15 +63,28 @@ Description: Qt Connectivity NFC module
  This package contains the NFC part of the Qt Connectivity module.
 
 Package: qtdeclarative5-qtnfc-plugin
+Architecture: all
+Section: oldlibs
+Depends: ${misc:Depends}, qml-module-qtnfc
+Description: transitional dummy package for Qt5's NFC QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package for qml-module-qtnfc and it can be
+ safely removed.
+
+Package: qml-module-qtnfc
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5nfc5, ${misc:Depends}, ${shlibs:Depends}
-Description: Qt Connectivity module - NFC QML plugin
+Breaks: qtdeclarative5-qtnfc-plugin (<< 5.2.1-3~)
+Replaces: qtdeclarative5-qtnfc-plugin (<< 5.2.1-3~)
+Description: Qt Connectivity module - NFC QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the NFC QML plugin from the Qt Connectivity module.
+ This package contains the NFC QML module from the Qt Connectivity module.
 
 Package: qtconnectivity5-dev
 Section: libdevel
