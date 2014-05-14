@@ -1,5 +1,8 @@
 qtconnectivity-opensource-src (5.2.1-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make qtconnectivity5-dev depend on libqt5nfc5 (Closes: #747971).
+    Thanks Laurent Bonnaud.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 May 2014 19:04:04 -0300
 
