@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN14QBluetoothUuidC1E8quint128@Base 5.2.0
  _ZN14QBluetoothUuidC1ENS_12ProtocolUuidE@Base 5.2.0
@@ -84,6 +84,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN18QBluetoothHostInfoC2Ev@Base 5.2.0
  _ZN18QBluetoothHostInfoD1Ev@Base 5.2.0
  _ZN18QBluetoothHostInfoD2Ev@Base 5.2.0
+ _ZN18QBluetoothHostInfoaSERKS_@Base 5.3.0
  _ZN20QBluetoothDeviceInfo15setServiceUuidsERK5QListI14QBluetoothUuidENS_16DataCompletenessE@Base 5.2.0
  _ZN20QBluetoothDeviceInfo7setRssiEs@Base 5.2.0
  _ZN20QBluetoothDeviceInfo9setCachedEb@Base 5.2.0
@@ -101,8 +102,10 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN21QBluetoothLocalDevice11qt_metacastEPKc@Base 5.2.0
  _ZN21QBluetoothLocalDevice11setHostModeENS_8HostModeE@Base 5.2.0
  _ZN21QBluetoothLocalDevice14requestPairingERK17QBluetoothAddressNS_7PairingE@Base 5.2.0
+ _ZN21QBluetoothLocalDevice15deviceConnectedERK17QBluetoothAddress@Base 5.3.0
  _ZN21QBluetoothLocalDevice15pairingFinishedERK17QBluetoothAddressNS_7PairingE@Base 5.2.0
  _ZN21QBluetoothLocalDevice16staticMetaObjectE@Base 5.2.0
+ _ZN21QBluetoothLocalDevice18deviceDisconnectedERK17QBluetoothAddress@Base 5.3.0
  _ZN21QBluetoothLocalDevice19pairingConfirmationEb@Base 5.2.0
  _ZN21QBluetoothLocalDevice20hostModeStateChangedENS_8HostModeE@Base 5.2.0
  _ZN21QBluetoothLocalDevice21pairingDisplayPinCodeERK17QBluetoothAddress7QString@Base 5.2.0
@@ -249,6 +252,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK20QBluetoothDeviceInfoneERKS_@Base 5.2.0
  _ZNK21QBluetoothLocalDevice10metaObjectEv@Base 5.2.0
  _ZNK21QBluetoothLocalDevice13pairingStatusERK17QBluetoothAddress@Base 5.2.0
+ _ZNK21QBluetoothLocalDevice16connectedDevicesEv@Base 5.3.0
  _ZNK21QBluetoothLocalDevice4nameEv@Base 5.2.0
  _ZNK21QBluetoothLocalDevice7addressEv@Base 5.2.0
  _ZNK21QBluetoothLocalDevice7isValidEv@Base 5.2.0
@@ -258,6 +262,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK21QBluetoothServiceInfo12isRegisteredEv@Base 5.2.0
  _ZNK21QBluetoothServiceInfo13serverChannelEv@Base 5.2.0
  _ZNK21QBluetoothServiceInfo14socketProtocolEv@Base 5.2.0
+ _ZNK21QBluetoothServiceInfo17serviceClassUuidsEv@Base 5.3.0
  _ZNK21QBluetoothServiceInfo18protocolDescriptorEN14QBluetoothUuid12ProtocolUuidE@Base 5.2.0
  _ZNK21QBluetoothServiceInfo26protocolServiceMultiplexerEv@Base 5.2.0
  _ZNK21QBluetoothServiceInfo6deviceEv@Base 5.2.0

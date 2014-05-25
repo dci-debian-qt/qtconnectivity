@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _Z12qNfcChecksumPKcj@Base 5.2.0
  _Z29qRegisterNdefRecordTypeHelperPK11QMetaObjectN11QNdefRecord14TypeNameFormatERK10QByteArray@Base 5.2.0
@@ -145,6 +145,32 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN18QNdefNfcTextRecord11setEncodingENS_8EncodingE@Base 5.2.0
  _ZN18QNdefNfcTextRecord7setTextE7QString@Base 5.2.0
  _ZN18QNdefNfcTextRecord9setLocaleERK7QString@Base 5.2.0
+ _ZN21QNearFieldShareTarget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
+ _ZN21QNearFieldShareTarget11qt_metacastEPKc@Base 5.3.0
+ _ZN21QNearFieldShareTarget13shareFinishedEv@Base 5.3.0
+ _ZN21QNearFieldShareTarget16staticMetaObjectE@Base 5.3.0
+ _ZN21QNearFieldShareTarget5errorEN22QNearFieldShareManager10ShareErrorE@Base 5.3.0
+ _ZN21QNearFieldShareTarget5shareERK12QNdefMessage@Base 5.3.0
+ _ZN21QNearFieldShareTarget5shareERK5QListI9QFileInfoE@Base 5.3.0
+ _ZN21QNearFieldShareTarget6cancelEv@Base 5.3.0
+ _ZN21QNearFieldShareTargetC1E6QFlagsIN22QNearFieldShareManager9ShareModeEEP7QObject@Base 5.3.0
+ _ZN21QNearFieldShareTargetC2E6QFlagsIN22QNearFieldShareManager9ShareModeEEP7QObject@Base 5.3.0
+ _ZN21QNearFieldShareTargetD0Ev@Base 5.3.0
+ _ZN21QNearFieldShareTargetD1Ev@Base 5.3.0
+ _ZN21QNearFieldShareTargetD2Ev@Base 5.3.0
+ _ZN22QNearFieldShareManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
+ _ZN22QNearFieldShareManager11qt_metacastEPKc@Base 5.3.0
+ _ZN22QNearFieldShareManager13setShareModesE6QFlagsINS_9ShareModeEE@Base 5.3.0
+ _ZN22QNearFieldShareManager14targetDetectedEP21QNearFieldShareTarget@Base 5.3.0
+ _ZN22QNearFieldShareManager16staticMetaObjectE@Base 5.3.0
+ _ZN22QNearFieldShareManager17shareModesChangedE6QFlagsINS_9ShareModeEE@Base 5.3.0
+ _ZN22QNearFieldShareManager19supportedShareModesEv@Base 5.3.0
+ _ZN22QNearFieldShareManager5errorENS_10ShareErrorE@Base 5.3.0
+ _ZN22QNearFieldShareManagerC1EP7QObject@Base 5.3.0
+ _ZN22QNearFieldShareManagerC2EP7QObject@Base 5.3.0
+ _ZN22QNearFieldShareManagerD0Ev@Base 5.3.0
+ _ZN22QNearFieldShareManagerD1Ev@Base 5.3.0
+ _ZN22QNearFieldShareManagerD2Ev@Base 5.3.0
  _ZN25QNdefNfcSmartPosterRecord10removeIconERK10QByteArray@Base 5.2.0
  _ZN25QNdefNfcSmartPosterRecord10removeIconERK18QNdefNfcIconRecord@Base 5.2.0
  _ZN25QNdefNfcSmartPosterRecord10setPayloadERK10QByteArray@Base 5.2.0
@@ -218,6 +244,13 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZNK18QNdefNfcTextRecord4textEv@Base 5.2.0
  _ZNK18QNdefNfcTextRecord6localeEv@Base 5.2.0
  _ZNK18QNdefNfcTextRecord8encodingEv@Base 5.2.0
+ _ZNK21QNearFieldShareTarget10metaObjectEv@Base 5.3.0
+ _ZNK21QNearFieldShareTarget10shareErrorEv@Base 5.3.0
+ _ZNK21QNearFieldShareTarget10shareModesEv@Base 5.3.0
+ _ZNK21QNearFieldShareTarget17isShareInProgressEv@Base 5.3.0
+ _ZNK22QNearFieldShareManager10metaObjectEv@Base 5.3.0
+ _ZNK22QNearFieldShareManager10shareErrorEv@Base 5.3.0
+ _ZNK22QNearFieldShareManager10shareModesEv@Base 5.3.0
  _ZNK25QNdefNfcSmartPosterRecord10iconRecordEi@Base 5.2.0
  _ZNK25QNdefNfcSmartPosterRecord10titleCountEv@Base 5.2.0
  _ZNK25QNdefNfcSmartPosterRecord11hasTypeInfoEv@Base 5.2.0
@@ -241,13 +274,19 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZTI14QQmlNdefRecord@Base 5.2.0
  _ZTI16QNearFieldTarget@Base 5.2.0
  _ZTI17QNearFieldManager@Base 5.2.0
+ _ZTI21QNearFieldShareTarget@Base 5.3.0
+ _ZTI22QNearFieldShareManager@Base 5.3.0
  _ZTS11QLlcpServer@Base 5.2.0
  _ZTS11QLlcpSocket@Base 5.2.0
  _ZTS14QQmlNdefRecord@Base 5.2.0
  _ZTS16QNearFieldTarget@Base 5.2.0
  _ZTS17QNearFieldManager@Base 5.2.0
+ _ZTS21QNearFieldShareTarget@Base 5.3.0
+ _ZTS22QNearFieldShareManager@Base 5.3.0
  _ZTV11QLlcpServer@Base 5.2.0
  _ZTV11QLlcpSocket@Base 5.2.0
  _ZTV14QQmlNdefRecord@Base 5.2.0
  _ZTV16QNearFieldTarget@Base 5.2.0
  _ZTV17QNearFieldManager@Base 5.2.0
+ _ZTV21QNearFieldShareTarget@Base 5.3.0
+ _ZTV22QNearFieldShareManager@Base 5.3.0
