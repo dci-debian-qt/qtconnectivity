@@ -38,6 +38,8 @@ usr/include/*/qt5/QtNfc/QNdefNfcTextRecord
 usr/include/*/qt5/QtNfc/QNdefNfcUriRecord
 usr/include/*/qt5/QtNfc/QNdefRecord
 usr/include/*/qt5/QtNfc/QNearFieldManager
+usr/include/*/qt5/QtNfc/QNearFieldShareManager
+usr/include/*/qt5/QtNfc/QNearFieldShareTarget
 usr/include/*/qt5/QtNfc/QNearFieldTarget
 usr/include/*/qt5/QtNfc/QQmlNdefRecord
 usr/include/*/qt5/QtNfc/QtNfc
@@ -50,6 +52,8 @@ usr/include/*/qt5/QtNfc/qndefnfctextrecord.h
 usr/include/*/qt5/QtNfc/qndefnfcurirecord.h
 usr/include/*/qt5/QtNfc/qndefrecord.h
 usr/include/*/qt5/QtNfc/qnearfieldmanager.h
+usr/include/*/qt5/QtNfc/qnearfieldsharemanager.h
+usr/include/*/qt5/QtNfc/qnearfieldsharetarget.h
 usr/include/*/qt5/QtNfc/qnearfieldtarget.h
 usr/include/*/qt5/QtNfc/qnfcglobal.h
 usr/include/*/qt5/QtNfc/qqmlndefrecord.h
