@@ -3,7 +3,9 @@ Upstream-Name: qtconnectivity-opensource-src
 Source: http://qt.gitorious.org/qt/qtconnectivity
 
 Files: *
-Copyright: 2013 Digia Plc and/or its subsidiary(-ies)
+Copyright: 2013-2014 Digia Plc and/or its subsidiary(-ies)
+           2011-2014 Research In Motion (aka Blackberry)
+           2012 Klarälvdalens Datakonsult AB, a KDAB Group company
 License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
 
 Files: examples/*
@@ -13,8 +15,9 @@ Copyright: 2013 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
 Files: *.qdoc
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
-License: GFDL-1.3
+Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies).
+           2013 Aaron McCarthy <mccarthy.aaron@gmail.com>
+License: GFDL-1.3+NIV
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -23,55 +26,20 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
+           2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 License: LGPL-2.1
 
-Files: examples/bluetooth/scanner/doc/src/scanner.qdoc
-       src/nfc/doc/src/nfc-cpp.qdoc
-       src/nfc/doc/src/nfc-qml.qdoc
-       src/nfc/doc/src/examples.qdoc
-       src/nfc/doc/src/nfc-index.qdoc
-       src/nfc/doc/src/nfc-overview.qdoc
-Copyright: 2013 Aaron McCarthy <mccarthy.aaron@gmail.com>
-License: GFDL-1.3
+Files: examples/*
+Copyright: 2013-2014 Digia Plc and/or its subsidiary(-ies)
+           2013-2014 BlackBerry Limited
+License: BSD-3-clause
 
 Files: src/nfc/doc/snippets/doc_src_qtnfc.qml
        src/nfc/doc/snippets/doc_src_qtnfc.cpp
        src/nfc/doc/snippets/doc_src_qtnfc.pro
 Copyright: 2013 Aaron McCarthy <mccarthy.aaron@gmail.com>
+           2014 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
-
-Files: src/nfc/qndefnfcsmartposterrecord.cpp
-       src/nfc/qllcpserver_qnx_p.h
-       src/nfc/qnearfieldtarget_qnx_p.h
-       src/nfc/qllcpsocket_qnx_p.cpp
-       src/nfc/qndefnfcsmartposterrecord.h
-       src/nfc/qnx/qnxnfcmanager_p.h
-       src/nfc/qnx/qnxnfceventfilter_p.h
-       src/nfc/qnx/qnxnfcmanager.cpp
-       src/nfc/qnx/qnxnfceventfilter.cpp
-       src/nfc/qnearfieldmanager_qnx.cpp
-       src/nfc/qllcpserver_qnx_p.cpp
-       src/nfc/qndefnfcsmartposterrecord_p.h
-       src/nfc/qllcpsocket_qnx_p.h
-       src/nfc/qnearfieldmanager_qnx_p.h
-       src/bluetooth/qbluetoothtransferreply_qnx_p.h
-       src/bluetooth/qbluetoothservicediscoveryagent_qnx.cpp
-       src/bluetooth/qbluetoothtransfermanager_qnx.cpp
-       src/bluetooth/qnx/ppshelpers.cpp
-       src/bluetooth/qnx/ppshelpers_p.h
-       src/bluetooth/qbluetoothlocaldevice_qnx.cpp
-       src/bluetooth/qbluetoothtransferreply_qnx.cpp
-       src/bluetooth/qbluetoothdevicediscoveryagent_qnx.cpp
-       src/bluetooth/qbluetoothserviceinfo_qnx.cpp
-       src/bluetooth/qbluetoothsocket_qnx.cpp
-       src/bluetooth/qrfcommserver_qnx.cpp
-       tests/auto/qndefnfcsmartposterrecord/tst_qndefnfcsmartposterrecord.cpp
-Copyright: 2011-2013 Research In Motion (aka Blackberry)
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
-
-Files: tests/auto/cmake/test_modules/main.cpp
-Copyright: 2012 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
 
 License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
  GNU Lesser General Public License version 2.1:
@@ -163,7 +131,7 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
-License: GFDL-1.3
+License: GFDL-1.3+NIV
  GNU Free Documentation License Usage
  Alternatively, this file may be used under the terms of the GNU Free
  Documentation License version 1.3 as published by the Free Software
