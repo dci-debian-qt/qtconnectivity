@@ -28,16 +28,6 @@ Description: Qt Connectivity Bluetooth module
  .
  This package contains the Bluetooth part of the Qt Connectivity module.
 
-Package: qtdeclarative5-qtbluetooth-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtbluetooth, ${misc:Depends}
-Description: transitional dummy package for Qt5's Bluetooth QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qtbluetooth
 Architecture: any
 Multi-Arch: same
@@ -61,17 +51,6 @@ Description: Qt Connectivity NFC module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the NFC part of the Qt Connectivity module.
-
-Package: qtdeclarative5-qtnfc-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtnfc, ${misc:Depends}
-Description: transitional dummy package for Qt5's NFC QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package for qml-module-qtnfc and it can be
- safely removed.
 
 Package: qml-module-qtnfc
 Architecture: any
