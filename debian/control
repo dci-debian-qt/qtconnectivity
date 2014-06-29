@@ -10,8 +10,8 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@gmail.com>
 Build-Depends: debhelper (>= 9.0.0),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.3.0+dfsg~),
-               qtdeclarative5-private-dev (>= 5.3.0~)
+               qtbase5-dev (>= 5.3.1+dfsg-2~),
+               qtdeclarative5-private-dev (>= 5.3.1~)
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtconnectivity.git
