@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64
+# SymbolsHelper-Confirmed: 5.3.1 hurd-i386 kfreebsd-amd64 kfreebsd-i386
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN14QBluetoothUuidC1E8quint128@Base 5.2.0
  _ZN14QBluetoothUuidC1ENS_12ProtocolUuidE@Base 5.2.0
@@ -162,25 +162,25 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN25QBluetoothTransferRequestD1Ev@Base 5.2.0
  _ZN25QBluetoothTransferRequestD2Ev@Base 5.2.0
  _ZN25QBluetoothTransferRequestaSERKS_@Base 5.2.0
- _ZN28QBluetoothTransferReplyBluez11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez11qt_metacastEPKc@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez12sendReturnedEP23QDBusPendingCallWatcher@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez14copyToTempFileEP9QIODeviceS1_@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez16staticMetaObjectE@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez5ErrorERK15QDBusObjectPathRK7QString@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez5abortEv@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez5startEv@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez7ReleaseEv@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez7RequestERK15QDBusObjectPath@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez8CompleteERK15QDBusObjectPath@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez8ProgressERK15QDBusObjectPathy@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez8copyDoneEv@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluez8startOPPE7QString@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluezC1EP9QIODeviceRK25QBluetoothTransferRequestP25QBluetoothTransferManager@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluezC2EP9QIODeviceRK25QBluetoothTransferRequestP25QBluetoothTransferManager@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluezD0Ev@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluezD1Ev@Base 5.3.1
- _ZN28QBluetoothTransferReplyBluezD2Ev@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez11qt_metacastEPKc@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez12sendReturnedEP23QDBusPendingCallWatcher@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez14copyToTempFileEP9QIODeviceS1_@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez16staticMetaObjectE@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez5ErrorERK15QDBusObjectPathRK7QString@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez5abortEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez5startEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez7ReleaseEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez7RequestERK15QDBusObjectPath@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez8CompleteERK15QDBusObjectPath@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez8ProgressERK15QDBusObjectPathy@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez8copyDoneEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez8startOPPE7QString@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezC1EP9QIODeviceRK25QBluetoothTransferRequestP25QBluetoothTransferManager@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezC2EP9QIODeviceRK25QBluetoothTransferRequestP25QBluetoothTransferManager@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezD0Ev@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezD1Ev@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezD2Ev@Base 5.3.1
  _ZN30QBluetoothDeviceDiscoveryAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
  _ZN30QBluetoothDeviceDiscoveryAgent11qt_metacastEPKc@Base 5.2.0
  _ZN30QBluetoothDeviceDiscoveryAgent14setInquiryTypeENS_11InquiryTypeE@Base 5.2.0
@@ -296,11 +296,11 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK25QBluetoothTransferRequest9attributeENS_9AttributeERK8QVariant@Base 5.2.0
  _ZNK25QBluetoothTransferRequesteqERKS_@Base 5.2.0
  _ZNK25QBluetoothTransferRequestneERKS_@Base 5.2.0
- _ZNK28QBluetoothTransferReplyBluez10isFinishedEv@Base 5.3.1
- _ZNK28QBluetoothTransferReplyBluez10metaObjectEv@Base 5.3.1
- _ZNK28QBluetoothTransferReplyBluez11errorStringEv@Base 5.3.1
- _ZNK28QBluetoothTransferReplyBluez5errorEv@Base 5.3.1
- _ZNK28QBluetoothTransferReplyBluez9isRunningEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez10isFinishedEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez10metaObjectEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez11errorStringEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez5errorEv@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez9isRunningEv@Base 5.3.1
  _ZNK30QBluetoothDeviceDiscoveryAgent10metaObjectEv@Base 5.2.0
  _ZNK30QBluetoothDeviceDiscoveryAgent11errorStringEv@Base 5.2.0
  _ZNK30QBluetoothDeviceDiscoveryAgent11inquiryTypeEv@Base 5.2.0
@@ -314,22 +314,22 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK31QBluetoothServiceDiscoveryAgent18discoveredServicesEv@Base 5.2.0
  _ZNK31QBluetoothServiceDiscoveryAgent5errorEv@Base 5.2.0
  _ZNK31QBluetoothServiceDiscoveryAgent8isActiveEv@Base 5.2.0
- _ZTI12QDBusContext@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTI12QDBusContext@Base 5.3.1
  _ZTI16QBluetoothServer@Base 5.2.0
  _ZTI16QBluetoothSocket@Base 5.2.0
  _ZTI21QBluetoothLocalDevice@Base 5.2.0
  _ZTI23QBluetoothTransferReply@Base 5.2.0
  _ZTI25QBluetoothTransferManager@Base 5.2.0
- _ZTI28QBluetoothTransferReplyBluez@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTI28QBluetoothTransferReplyBluez@Base 5.3.1
  _ZTI30QBluetoothDeviceDiscoveryAgent@Base 5.2.0
  _ZTI31QBluetoothServiceDiscoveryAgent@Base 5.2.0
- _ZTS12QDBusContext@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTS12QDBusContext@Base 5.3.1
  _ZTS16QBluetoothServer@Base 5.2.0
  _ZTS16QBluetoothSocket@Base 5.2.0
  _ZTS21QBluetoothLocalDevice@Base 5.2.0
  _ZTS23QBluetoothTransferReply@Base 5.2.0
  _ZTS25QBluetoothTransferManager@Base 5.2.0
- _ZTS28QBluetoothTransferReplyBluez@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTS28QBluetoothTransferReplyBluez@Base 5.3.1
  _ZTS30QBluetoothDeviceDiscoveryAgent@Base 5.2.0
  _ZTS31QBluetoothServiceDiscoveryAgent@Base 5.2.0
  _ZTV16QBluetoothServer@Base 5.2.0
@@ -337,7 +337,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZTV21QBluetoothLocalDevice@Base 5.2.0
  _ZTV23QBluetoothTransferReply@Base 5.2.0
  _ZTV25QBluetoothTransferManager@Base 5.2.0
- _ZTV28QBluetoothTransferReplyBluez@Base 5.3.1
+ (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTV28QBluetoothTransferReplyBluez@Base 5.3.1
  _ZTV30QBluetoothDeviceDiscoveryAgent@Base 5.2.0
  _ZTV31QBluetoothServiceDiscoveryAgent@Base 5.2.0
  _Zls6QDebugN16QBluetoothSocket11SocketErrorE@Base 5.2.0
