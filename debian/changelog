@@ -3,6 +3,7 @@ qtconnectivity-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Update debian/copyright with new LGPL 3 license.
+  * Bump Qt build dependencies to 5.4.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Dec 2014 11:35:32 -0300
 
