@@ -6,6 +6,7 @@ qtconnectivity-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Bump Qt build dependencies to 5.4.0.
   * Regenerate generated DBus files.
   * Simplify examples install file.
+  * Simplify qtconnectivity5-dev.install file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Dec 2014 11:35:32 -0300
 
