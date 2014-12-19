@@ -1,6 +1,5 @@
-qtconnectivity-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.4.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Update debian/copyright with new LGPL 3 license.
   * Bump Qt build dependencies to 5.4.0.
@@ -14,7 +13,7 @@ qtconnectivity-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update Standards-Version to 3.9.6, no changes required.
   * Remove empty directories left after removing private headers.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Dec 2014 11:35:32 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 19 Dec 2014 16:22:44 -0300
 
 qtconnectivity-opensource-src (5.3.2-2) unstable; urgency=medium
 
