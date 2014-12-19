@@ -23,12 +23,24 @@ Package: libqt5bluetooth5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, libqt5bluetooth5-bin
 Description: Qt Connectivity Bluetooth module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Bluetooth part of the Qt Connectivity module.
+
+Package: libqt5bluetooth5-bin
+Architecture: any
+Section: utils
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Connectivity Bluetooth module helper binaries
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Bluetooth helper binaries.
 
 Package: qml-module-qtbluetooth
 Architecture: any
