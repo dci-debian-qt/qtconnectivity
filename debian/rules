@@ -26,3 +26,4 @@ override_dh_auto_install:
 	# Remove private headers we are not installing.
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtNfc/*/QtNfc/private/
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtBluetooth/*/QtBluetooth/private/
+	find debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/ -type d -empty -delete
