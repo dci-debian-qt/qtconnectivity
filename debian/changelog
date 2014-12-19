@@ -10,6 +10,7 @@ qtconnectivity-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Add libqt5bluetooth5-bin and make libqt5bluetooth5 depend on it.
     libqt5bluetooth5-bin holds an app to help libqt5bluetooth5 without
     creating licensing problems in the code.
+  * Update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Dec 2014 11:35:32 -0300
 
