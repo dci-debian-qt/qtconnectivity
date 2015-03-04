@@ -87,9 +87,9 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN14QQmlNdefRecordC1ERK11QNdefRecordP7QObject@Base 5.2.0
  _ZN14QQmlNdefRecordC2EP7QObject@Base 5.2.0
  _ZN14QQmlNdefRecordC2ERK11QNdefRecordP7QObject@Base 5.2.0
- _ZN14QQmlNdefRecordD0Ev@Base 5.2.0
- _ZN14QQmlNdefRecordD1Ev@Base 5.2.0
- _ZN14QQmlNdefRecordD2Ev@Base 5.2.0
+ (optional=gccinternal)_ZN14QQmlNdefRecordD0Ev@Base 5.2.0
+ (optional=gccinternal)_ZN14QQmlNdefRecordD1Ev@Base 5.2.0
+ (optional=gccinternal)_ZN14QQmlNdefRecordD2Ev@Base 5.2.0
  _ZN16QNearFieldTarget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
  _ZN16QNearFieldTarget11qt_metacastEPKc@Base 5.2.0
  _ZN16QNearFieldTarget11sendCommandERK10QByteArray@Base 5.2.0
