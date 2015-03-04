@@ -1,13 +1,12 @@
-qtconnectivity-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Timo Jyrinki ]
   * New upstream release.
   * Update watch file to qt.io
   * Bump Qt build-dependencies to 5.4.1.
   * Update *.symbols for GCC 5. (Closes: #778086)
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 13:03:28 +0000
+ -- Timo Jyrinki <timo@debian.org>  Wed, 04 Mar 2015 13:25:45 +0000
 
 qtconnectivity-opensource-src (5.4.0-1) experimental; urgency=medium
 
