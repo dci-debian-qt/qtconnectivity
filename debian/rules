@@ -17,7 +17,10 @@ override_dh_auto_configure:
 	# Now call qmake
 	qmake
 
-override_dh_auto_install:
+override_dh_auto_build-indep:
+	dh_auto_build -Smakefile -- docs
+
+override_dh_auto_install-arch:
 	dh_auto_install
 
 	# Remove libtool-like files
@@ -27,3 +30,6 @@ override_dh_auto_install:
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtNfc/*/QtNfc/private/
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtBluetooth/*/QtBluetooth/private/
 	find debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/ -type d -empty -delete
+
+override_dh_auto_install-indep:
+	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
