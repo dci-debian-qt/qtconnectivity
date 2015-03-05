@@ -34,9 +34,7 @@ Copyright: 2013-2014 Digia Plc and/or its subsidiary(-ies)
            2013-2014 BlackBerry Limited
 License: BSD-3-clause
 
-Files: src/nfc/doc/snippets/doc_src_qtnfc.qml
-       src/nfc/doc/snippets/doc_src_qtnfc.cpp
-       src/nfc/doc/snippets/doc_src_qtnfc.pro
+Files: src/nfc/doc/snippets/doc_src_qtnfc.*
 Copyright: 2013 Aaron McCarthy <mccarthy.aaron@gmail.com>
            2014 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
