@@ -1,6 +1,5 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64
+# SymbolsHelper-Confirmed: 5.4.1 alpha arm64 armel armhf i386 mipsel ppc64el
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
- (optional=gccinternal)_ZN10QByteArray7reserveEi@Base 5.4.1
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Base 5.4.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Base 5.4.0
  _ZN14QBluetoothUuid20serviceClassToStringENS_16ServiceClassUuidE@Base 5.4.0
