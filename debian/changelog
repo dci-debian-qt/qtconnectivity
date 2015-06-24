@@ -1,12 +1,11 @@
-qtconnectivity-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.4.2-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Expose HTML documentation.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Jun 2015 23:20:13 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 18:23:01 -0300
 
 qtconnectivity-opensource-src (5.4.1-2) experimental; urgency=medium
 
