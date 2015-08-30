@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 alpha arm64 armel armhf i386 mipsel ppc64el
+# SymbolsHelper-Confirmed: 5.4.2 amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Base 5.4.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Base 5.4.0
@@ -174,7 +174,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN21QBluetoothLocalDeviceD0Ev@Base 5.2.0
  _ZN21QBluetoothLocalDeviceD1Ev@Base 5.2.0
  _ZN21QBluetoothLocalDeviceD2Ev@Base 5.2.0
- (optional=gccinternal)_ZN21QBluetoothServiceInfo12setAttributeEtRK14QBluetoothUuid@Base 5.4.0
+ (optional=gccinternal|arch=!mips !mipsel)_ZN21QBluetoothServiceInfo12setAttributeEtRK14QBluetoothUuid@Base 5.4.0
  _ZN21QBluetoothServiceInfo12setAttributeEtRK8QVariant@Base 5.2.0
  _ZN21QBluetoothServiceInfo12setAttributeEtRKNS_8SequenceE@Base 5.4.0
  _ZN21QBluetoothServiceInfo15registerServiceERK17QBluetoothAddress@Base 5.2.0
@@ -425,6 +425,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK31QBluetoothServiceDiscoveryAgent18discoveredServicesEv@Base 5.2.0
  _ZNK31QBluetoothServiceDiscoveryAgent5errorEv@Base 5.2.0
  _ZNK31QBluetoothServiceDiscoveryAgent8isActiveEv@Base 5.2.0
+ (optional=templinst|arch=armel armhf i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.4.2
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTI12QDBusContext@Base 5.3.1
  _ZTI16QBluetoothServer@Base 5.2.0
  _ZTI16QBluetoothSocket@Base 5.2.0
