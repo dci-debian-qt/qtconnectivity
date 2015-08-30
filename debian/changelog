@@ -4,7 +4,7 @@ qtconnectivity-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
   * Update debian/copyright.
-  * Update symbols files with buildds' logs.
+  * Update symbols files.
   * Avoid compiling code during arch-indep builds, by adding empty
     override_dh_auto_test-indep target.
 

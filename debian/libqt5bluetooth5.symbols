@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Base 5.4.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Base 5.4.0
@@ -87,10 +87,14 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN17QLowEnergyService11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
  _ZN17QLowEnergyService11qt_metacastEPKc@Base 5.4.0
  _ZN17QLowEnergyService12stateChangedENS_12ServiceStateE@Base 5.4.0
+ _ZN17QLowEnergyService14descriptorReadERK20QLowEnergyDescriptorRK10QByteArray@Base 5.5.0
+ _ZN17QLowEnergyService14readDescriptorERK20QLowEnergyDescriptor@Base 5.5.0
  _ZN17QLowEnergyService15discoverDetailsEv@Base 5.4.0
  _ZN17QLowEnergyService15writeDescriptorERK20QLowEnergyDescriptorRK10QByteArray@Base 5.4.0
  _ZN17QLowEnergyService16staticMetaObjectE@Base 5.4.0
  _ZN17QLowEnergyService17descriptorWrittenERK20QLowEnergyDescriptorRK10QByteArray@Base 5.4.0
+ _ZN17QLowEnergyService18characteristicReadERK24QLowEnergyCharacteristicRK10QByteArray@Base 5.5.0
+ _ZN17QLowEnergyService18readCharacteristicERK24QLowEnergyCharacteristic@Base 5.5.0
  _ZN17QLowEnergyService19writeCharacteristicERK24QLowEnergyCharacteristicRK10QByteArrayNS_9WriteModeE@Base 5.4.0
  _ZN17QLowEnergyService21characteristicChangedERK24QLowEnergyCharacteristicRK10QByteArray@Base 5.4.0
  _ZN17QLowEnergyService21characteristicWrittenERK24QLowEnergyCharacteristicRK10QByteArray@Base 5.4.0
@@ -109,13 +113,16 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN18QBluetoothHostInfoD1Ev@Base 5.2.0
  _ZN18QBluetoothHostInfoD2Ev@Base 5.2.0
  _ZN18QBluetoothHostInfoaSERKS_@Base 5.3.0
+ _ZN20QBluetoothDeviceInfo13setDeviceUuidERK14QBluetoothUuid@Base 5.5.0
  _ZN20QBluetoothDeviceInfo15setServiceUuidsERK5QListI14QBluetoothUuidENS_16DataCompletenessE@Base 5.2.0
  _ZN20QBluetoothDeviceInfo21setCoreConfigurationsE6QFlagsINS_17CoreConfigurationEE@Base 5.4.0
  _ZN20QBluetoothDeviceInfo7setRssiEs@Base 5.2.0
  _ZN20QBluetoothDeviceInfo9setCachedEb@Base 5.2.0
+ _ZN20QBluetoothDeviceInfoC1ERK14QBluetoothUuidRK7QStringj@Base 5.5.0
  _ZN20QBluetoothDeviceInfoC1ERK17QBluetoothAddressRK7QStringj@Base 5.2.0
  _ZN20QBluetoothDeviceInfoC1ERKS_@Base 5.2.0
  _ZN20QBluetoothDeviceInfoC1Ev@Base 5.2.0
+ _ZN20QBluetoothDeviceInfoC2ERK14QBluetoothUuidRK7QStringj@Base 5.5.0
  _ZN20QBluetoothDeviceInfoC2ERK17QBluetoothAddressRK7QStringj@Base 5.2.0
  _ZN20QBluetoothDeviceInfoC2ERKS_@Base 5.2.0
  _ZN20QBluetoothDeviceInfoC2Ev@Base 5.2.0
@@ -138,8 +145,10 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN20QLowEnergyController9connectedEv@Base 5.4.0
  _ZN20QLowEnergyControllerC1ERK17QBluetoothAddressP7QObject@Base 5.4.0
  _ZN20QLowEnergyControllerC1ERK17QBluetoothAddressS2_P7QObject@Base 5.4.0
+ _ZN20QLowEnergyControllerC1ERK20QBluetoothDeviceInfoP7QObject@Base 5.5.0
  _ZN20QLowEnergyControllerC2ERK17QBluetoothAddressP7QObject@Base 5.4.0
  _ZN20QLowEnergyControllerC2ERK17QBluetoothAddressS2_P7QObject@Base 5.4.0
+ _ZN20QLowEnergyControllerC2ERK20QBluetoothDeviceInfoP7QObject@Base 5.5.0
  _ZN20QLowEnergyControllerD0Ev@Base 5.4.0
  _ZN20QLowEnergyControllerD1Ev@Base 5.4.0
  _ZN20QLowEnergyControllerD2Ev@Base 5.4.0
@@ -339,6 +348,9 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK17QLowEnergyService8containsERK24QLowEnergyCharacteristic@Base 5.4.0
  _ZNK18QBluetoothHostInfo4nameEv@Base 5.2.0
  _ZNK18QBluetoothHostInfo7addressEv@Base 5.2.0
+ _ZNK18QBluetoothHostInfoeqERKS_@Base 5.5.0
+ _ZNK18QBluetoothHostInfoneERKS_@Base 5.5.0
+ _ZNK20QBluetoothDeviceInfo10deviceUuidEv@Base 5.5.0
  _ZNK20QBluetoothDeviceInfo12serviceUuidsEPNS_16DataCompletenessE@Base 5.2.0
  _ZNK20QBluetoothDeviceInfo14serviceClassesEv@Base 5.2.0
  _ZNK20QBluetoothDeviceInfo16majorDeviceClassEv@Base 5.2.0
@@ -353,6 +365,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK20QBluetoothDeviceInfoeqERKS_@Base 5.2.0
  _ZNK20QBluetoothDeviceInfoneERKS_@Base 5.2.0
  _ZNK20QLowEnergyController10metaObjectEv@Base 5.4.0
+ _ZNK20QLowEnergyController10remoteNameEv@Base 5.5.0
  _ZNK20QLowEnergyController11errorStringEv@Base 5.4.0
  _ZNK20QLowEnergyController12localAddressEv@Base 5.4.0
  _ZNK20QLowEnergyController13remoteAddressEv@Base 5.4.0

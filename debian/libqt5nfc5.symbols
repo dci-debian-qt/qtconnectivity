@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _Z12qNfcChecksumPKcj@Base 5.2.0
  _Z29qRegisterNdefRecordTypeHelperPK11QMetaObjectN11QNdefRecord14TypeNameFormatERK10QByteArray@Base 5.2.0
@@ -196,6 +196,7 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN25QNdefNfcSmartPosterRecordC2Ev@Base 5.2.0
  _ZN25QNdefNfcSmartPosterRecordD1Ev@Base 5.2.0
  _ZN25QNdefNfcSmartPosterRecordD2Ev@Base 5.2.0
+ _ZN25QNdefNfcSmartPosterRecordaSERKS_@Base 5.5.0
  _ZNK11QLlcpServer10metaObjectEv@Base 5.2.0
  _ZNK11QLlcpServer10serverPortEv@Base 5.2.0
  _ZNK11QLlcpServer10serviceUriEv@Base 5.2.0
