@@ -1,5 +1,15 @@
-# SymbolsHelper-Confirmed: 5.5.1 mips64el
+# SymbolsHelper-Confirmed: 5.6.0 amd64
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
+ Qt_5.0@Qt_5.0 5.6.0
+ Qt_5.1@Qt_5.1 5.6.0
+ Qt_5.2@Qt_5.2 5.6.0
+ Qt_5.3@Qt_5.3 5.6.0
+ Qt_5.4@Qt_5.4 5.6.0
+ Qt_5.5@Qt_5.5 5.6.0
+ Qt_5.6@Qt_5.6 5.6.0
+ Qt_5@Qt_5 5.6.0
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
+ _ZN10QByteArray7reserveEi@Qt_5 5.6.0
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Qt_5 5.6.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Qt_5 5.6.0
  _ZN14QBluetoothUuid20serviceClassToStringENS_16ServiceClassUuidE@Qt_5 5.6.0
@@ -59,6 +69,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN16QBluetoothSocket17serviceDiscoveredERK21QBluetoothServiceInfo@Qt_5 5.6.0
  _ZN16QBluetoothSocket19setSocketDescriptorEiN21QBluetoothServiceInfo8ProtocolENS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Qt_5 5.6.0
  _ZN16QBluetoothSocket21disconnectFromServiceEv@Qt_5 5.6.0
+ _ZN16QBluetoothSocket25setPreferredSecurityFlagsE6QFlagsIN10QBluetooth8SecurityEE@Qt_5 5.6.0
  _ZN16QBluetoothSocket5abortEv@Qt_5 5.6.0
  _ZN16QBluetoothSocket5closeEv@Qt_5 5.6.0
  _ZN16QBluetoothSocket5errorENS_11SocketErrorE@Qt_5 5.6.0
@@ -323,6 +334,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK16QBluetoothSocket12localAddressEv@Qt_5 5.6.0
  _ZNK16QBluetoothSocket14bytesAvailableEv@Qt_5 5.6.0
  _ZNK16QBluetoothSocket16socketDescriptorEv@Qt_5 5.6.0
+ _ZNK16QBluetoothSocket22preferredSecurityFlagsEv@Qt_5 5.6.0
  _ZNK16QBluetoothSocket5errorEv@Qt_5 5.6.0
  _ZNK16QBluetoothSocket5stateEv@Qt_5 5.6.0
  _ZNK16QBluetoothSocket8peerNameEv@Qt_5 5.6.0

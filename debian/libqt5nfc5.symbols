@@ -1,5 +1,14 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0 amd64
 libQt5Nfc.so.5 libqt5nfc5 #MINVER#
+ Qt_5.0@Qt_5.0 5.6.0
+ Qt_5.1@Qt_5.1 5.6.0
+ Qt_5.2@Qt_5.2 5.6.0
+ Qt_5.3@Qt_5.3 5.6.0
+ Qt_5.4@Qt_5.4 5.6.0
+ Qt_5.5@Qt_5.5 5.6.0
+ Qt_5.6@Qt_5.6 5.6.0
+ Qt_5@Qt_5 5.6.0
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
  _Z12qNfcChecksumPKcj@Qt_5 5.6.0
  _Z29qRegisterNdefRecordTypeHelperPK11QMetaObjectN11QNdefRecord14TypeNameFormatERK10QByteArray@Qt_5 5.6.0
  _Z38qNewDeclarativeNdefRecordForNdefRecordRK11QNdefRecord@Qt_5 5.6.0
@@ -87,6 +96,9 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN14QQmlNdefRecordC1ERK11QNdefRecordP7QObject@Qt_5 5.6.0
  _ZN14QQmlNdefRecordC2EP7QObject@Qt_5 5.6.0
  _ZN14QQmlNdefRecordC2ERK11QNdefRecordP7QObject@Qt_5 5.6.0
+ _ZN14QQmlNdefRecordD0Ev@Qt_5 5.6.0
+ _ZN14QQmlNdefRecordD1Ev@Qt_5 5.6.0
+ _ZN14QQmlNdefRecordD2Ev@Qt_5 5.6.0
  _ZN16QNearFieldTarget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN16QNearFieldTarget11qt_metacastEPKc@Qt_5 5.6.0
  _ZN16QNearFieldTarget11sendCommandERK10QByteArray@Qt_5 5.6.0
