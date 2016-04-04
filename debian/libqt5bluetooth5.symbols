@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.1 mips64el
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Base 5.4.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Base 5.4.0
@@ -183,7 +183,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN21QBluetoothLocalDeviceD0Ev@Base 5.2.0
  _ZN21QBluetoothLocalDeviceD1Ev@Base 5.2.0
  _ZN21QBluetoothLocalDeviceD2Ev@Base 5.2.0
- (optional=gccinternal|arch=!mips !mipsel)_ZN21QBluetoothServiceInfo12setAttributeEtRK14QBluetoothUuid@Base 5.4.0
  _ZN21QBluetoothServiceInfo12setAttributeEtRK8QVariant@Base 5.2.0
  _ZN21QBluetoothServiceInfo12setAttributeEtRKNS_8SequenceE@Base 5.4.0
  _ZN21QBluetoothServiceInfo15registerServiceERK17QBluetoothAddress@Base 5.2.0
