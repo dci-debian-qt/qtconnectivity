@@ -8,7 +8,7 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
  Qt_5@Qt_5 5.6.0
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0 1
  _Z12qNfcChecksumPKcj@Qt_5 5.6.0
  _Z29qRegisterNdefRecordTypeHelperPK11QMetaObjectN11QNdefRecord14TypeNameFormatERK10QByteArray@Qt_5 5.6.0
  _Z38qNewDeclarativeNdefRecordForNdefRecordRK11QNdefRecord@Qt_5 5.6.0
