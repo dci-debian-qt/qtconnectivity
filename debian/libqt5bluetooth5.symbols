@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0 amd64 armel armhf i386 mips mipsel powerpc
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
 | libqt5bluetooth5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
@@ -450,7 +450,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK31QBluetoothServiceDiscoveryAgent18discoveredServicesEv@Qt_5 5.6.0
  _ZNK31QBluetoothServiceDiscoveryAgent5errorEv@Qt_5 5.6.0
  _ZNK31QBluetoothServiceDiscoveryAgent8isActiveEv@Qt_5 5.6.0
- (optional=templinst|arch=armel armhf i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.4.2
+ (optional=templinst|arch=!amd64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.0
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTI12QDBusContext@Qt_5 5.6.0
  _ZTI16QBluetoothServer@Qt_5 5.6.0
  _ZTI16QBluetoothSocket@Qt_5 5.6.0
