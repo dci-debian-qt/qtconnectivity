@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.1 alpha arm64 mips64el ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.6.1 alpha amd64 arm64 mips64el ppc64 ppc64el s390x
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
 | libqt5bluetooth5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
@@ -10,7 +10,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  Qt_5.6@Qt_5.6 5.6.0
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0 1
- _ZN10QByteArray7reserveEi@Qt_5 5.6.0
+ (optional=gccinternal|arch=!amd64)_ZN10QByteArray7reserveEi@Qt_5 5.6.1
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Qt_5 5.6.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Qt_5 5.6.0
  _ZN14QBluetoothUuid20serviceClassToStringENS_16ServiceClassUuidE@Qt_5 5.6.0
