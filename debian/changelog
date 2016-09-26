@@ -1,4 +1,4 @@
-qtconnectivity-opensource-src (5.7.0-1) unstable; urgency=medium
+qtconnectivity-opensource-src (5.7.0-1) experimental; urgency=medium
 
   * New upstream release.
     - Bump Qt build dependencies.
