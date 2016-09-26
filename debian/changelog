@@ -3,7 +3,7 @@ qtconnectivity-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
-  * Update symbols files with buildds' logs.
+  * Update symbols files with buildds' and current logs.
   * Add qtbase5-private-dev as a required build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Sep 2016 17:49:36 -0300

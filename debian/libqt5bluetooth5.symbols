@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.1 alpha arm64 armel armhf i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.7.0 amd64
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
 | libqt5bluetooth5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
@@ -8,6 +8,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0 1
  _ZN10QByteArray7reserveEi@Qt_5 5.6.0
@@ -141,23 +142,32 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN20QBluetoothDeviceInfoD1Ev@Qt_5 5.6.0
  _ZN20QBluetoothDeviceInfoD2Ev@Qt_5 5.6.0
  _ZN20QBluetoothDeviceInfoaSERKS_@Qt_5 5.6.0
+ _ZN20QLowEnergyController10addServiceERK21QLowEnergyServiceDataP7QObject@Qt_5 5.7.0
  _ZN20QLowEnergyController11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN20QLowEnergyController11qt_metacastEPKc@Qt_5 5.6.0
  _ZN20QLowEnergyController12disconnectedEv@Qt_5 5.6.0
  _ZN20QLowEnergyController12stateChangedENS_15ControllerStateE@Qt_5 5.6.0
+ _ZN20QLowEnergyController13createCentralERK20QBluetoothDeviceInfoP7QObject@Qt_5 5.7.0
  _ZN20QLowEnergyController15connectToDeviceEv@Qt_5 5.6.0
+ _ZN20QLowEnergyController15stopAdvertisingEv@Qt_5 5.7.0
+ _ZN20QLowEnergyController16createPeripheralEP7QObject@Qt_5 5.7.0
  _ZN20QLowEnergyController16discoverServicesEv@Qt_5 5.6.0
+ _ZN20QLowEnergyController16startAdvertisingERK31QLowEnergyAdvertisingParametersRK25QLowEnergyAdvertisingDataS5_@Qt_5 5.7.0
  _ZN20QLowEnergyController16staticMetaObjectE@Qt_5 5.6.0
+ _ZN20QLowEnergyController17connectionUpdatedERK30QLowEnergyConnectionParameters@Qt_5 5.7.0
  _ZN20QLowEnergyController17discoveryFinishedEv@Qt_5 5.6.0
  _ZN20QLowEnergyController17serviceDiscoveredERK14QBluetoothUuid@Qt_5 5.6.0
  _ZN20QLowEnergyController19createServiceObjectERK14QBluetoothUuidP7QObject@Qt_5 5.6.0
  _ZN20QLowEnergyController20disconnectFromDeviceEv@Qt_5 5.6.0
  _ZN20QLowEnergyController20setRemoteAddressTypeENS_17RemoteAddressTypeE@Qt_5 5.6.0
+ _ZN20QLowEnergyController23requestConnectionUpdateERK30QLowEnergyConnectionParameters@Qt_5 5.7.0
  _ZN20QLowEnergyController5errorENS_5ErrorE@Qt_5 5.6.0
  _ZN20QLowEnergyController9connectedEv@Qt_5 5.6.0
+ _ZN20QLowEnergyControllerC1EP7QObject@Qt_5 5.7.0
  _ZN20QLowEnergyControllerC1ERK17QBluetoothAddressP7QObject@Qt_5 5.6.0
  _ZN20QLowEnergyControllerC1ERK17QBluetoothAddressS2_P7QObject@Qt_5 5.6.0
  _ZN20QLowEnergyControllerC1ERK20QBluetoothDeviceInfoP7QObject@Qt_5 5.6.0
+ _ZN20QLowEnergyControllerC2EP7QObject@Qt_5 5.7.0
  _ZN20QLowEnergyControllerC2ERK17QBluetoothAddressP7QObject@Qt_5 5.6.0
  _ZN20QLowEnergyControllerC2ERK17QBluetoothAddressS2_P7QObject@Qt_5 5.6.0
  _ZN20QLowEnergyControllerC2ERK20QBluetoothDeviceInfoP7QObject@Qt_5 5.6.0
@@ -208,6 +218,19 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN21QBluetoothServiceInfoD1Ev@Qt_5 5.6.0
  _ZN21QBluetoothServiceInfoD2Ev@Qt_5 5.6.0
  _ZN21QBluetoothServiceInfoaSERKS_@Qt_5 5.6.0
+ _ZN21QLowEnergyServiceData17addCharacteristicERK28QLowEnergyCharacteristicData@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceData18addIncludedServiceEP17QLowEnergyService@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceData18setCharacteristicsERK5QListI28QLowEnergyCharacteristicDataE@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceData19setIncludedServicesERK5QListIP17QLowEnergyServiceE@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceData7setTypeENS_11ServiceTypeE@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceData7setUuidERK14QBluetoothUuid@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataC1ERKS_@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataC1Ev@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataC2ERKS_@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataC2Ev@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataD1Ev@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataD2Ev@Qt_5 5.7.0
+ _ZN21QLowEnergyServiceDataaSERKS_@Qt_5 5.7.0
  _ZN23QBluetoothTransferReply10setManagerEP25QBluetoothTransferManager@Qt_5 5.6.0
  _ZN23QBluetoothTransferReply10setRequestERK25QBluetoothTransferRequest@Qt_5 5.6.0
  _ZN23QBluetoothTransferReply11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
@@ -231,6 +254,19 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN24QLowEnergyCharacteristicD1Ev@Qt_5 5.6.0
  _ZN24QLowEnergyCharacteristicD2Ev@Qt_5 5.6.0
  _ZN24QLowEnergyCharacteristicaSERKS_@Qt_5 5.6.0
+ _ZN24QLowEnergyDescriptorData18setReadPermissionsEb6QFlagsIN10QBluetooth19AttAccessConstraintEE@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorData19setWritePermissionsEb6QFlagsIN10QBluetooth19AttAccessConstraintEE@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorData7setUuidERK14QBluetoothUuid@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorData8setValueERK10QByteArray@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataC1ERK14QBluetoothUuidRK10QByteArray@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataC1ERKS_@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataC1Ev@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataC2ERK14QBluetoothUuidRK10QByteArray@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataC2ERKS_@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataC2Ev@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataD1Ev@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataD2Ev@Qt_5 5.7.0
+ _ZN24QLowEnergyDescriptorDataaSERKS_@Qt_5 5.7.0
  _ZN25QBluetoothTransferManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN25QBluetoothTransferManager11qt_metacastEPKc@Qt_5 5.6.0
  _ZN25QBluetoothTransferManager16staticMetaObjectE@Qt_5 5.6.0
@@ -249,6 +285,19 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN25QBluetoothTransferRequestD1Ev@Qt_5 5.6.0
  _ZN25QBluetoothTransferRequestD2Ev@Qt_5 5.6.0
  _ZN25QBluetoothTransferRequestaSERKS_@Qt_5 5.6.0
+ _ZN25QLowEnergyAdvertisingData10setRawDataERK10QByteArray@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingData11setServicesERK5QListI14QBluetoothUuidE@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingData12setLocalNameERK7QString@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingData18setDiscoverabilityENS_15DiscoverabilityE@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingData19setManufacturerDataEtRK10QByteArray@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingData20setIncludePowerLevelEb@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataC1ERKS_@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataC1Ev@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataC2ERKS_@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataC2Ev@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataD1Ev@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataD2Ev@Qt_5 5.7.0
+ _ZN25QLowEnergyAdvertisingDataaSERKS_@Qt_5 5.7.0
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluez12sendReturnedEP23QDBusPendingCallWatcher@Qt_5_PRIVATE_API 5.6.0 1
@@ -272,6 +321,21 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezD0Ev@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezD1Ev@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN28QBluetoothTransferReplyBluezD2Ev@Qt_5_PRIVATE_API 5.6.0 1
+ _ZN28QLowEnergyCharacteristicData13addDescriptorERK24QLowEnergyDescriptorData@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData13setPropertiesE6QFlagsIN24QLowEnergyCharacteristic12PropertyTypeEE@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData14setDescriptorsERK5QListI24QLowEnergyDescriptorDataE@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData14setValueLengthEii@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData18setReadConstraintsE6QFlagsIN10QBluetooth19AttAccessConstraintEE@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData19setWriteConstraintsE6QFlagsIN10QBluetooth19AttAccessConstraintEE@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData7setUuidERK14QBluetoothUuid@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicData8setValueERK10QByteArray@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataC1ERKS_@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataC1Ev@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataC2ERKS_@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataC2Ev@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataD1Ev@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataD2Ev@Qt_5 5.7.0
+ _ZN28QLowEnergyCharacteristicDataaSERKS_@Qt_5 5.7.0
  _ZN30QBluetoothDeviceDiscoveryAgent11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent11qt_metacastEPKc@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent14setInquiryTypeENS_11InquiryTypeE@Qt_5 5.6.0
@@ -291,6 +355,16 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN30QBluetoothDeviceDiscoveryAgentD2Ev@Qt_5 5.6.0
  _ZN30QBluetoothTransferReplyPrivateC1Ev@Qt_5_PRIVATE_API 5.6.0 1
  _ZN30QBluetoothTransferReplyPrivateC2Ev@Qt_5_PRIVATE_API 5.6.0 1
+ _ZN30QLowEnergyConnectionParameters10setLatencyEi@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParameters16setIntervalRangeEdd@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParameters21setSupervisionTimeoutEi@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersC1ERKS_@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersC1Ev@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersC2ERKS_@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersC2Ev@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersD1Ev@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersD2Ev@Qt_5 5.7.0
+ _ZN30QLowEnergyConnectionParametersaSERKS_@Qt_5 5.7.0
  _ZN31QBluetoothServiceDiscoveryAgent11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN31QBluetoothServiceDiscoveryAgent11qt_metacastEPKc@Qt_5 5.6.0
  _ZN31QBluetoothServiceDiscoveryAgent13setUuidFilterERK14QBluetoothUuid@Qt_5 5.6.0
@@ -311,6 +385,16 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN31QBluetoothServiceDiscoveryAgentD0Ev@Qt_5 5.6.0
  _ZN31QBluetoothServiceDiscoveryAgentD1Ev@Qt_5 5.6.0
  _ZN31QBluetoothServiceDiscoveryAgentD2Ev@Qt_5 5.6.0
+ _ZN31QLowEnergyAdvertisingParameters11setIntervalEtt@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParameters12setWhiteListERK5QListINS_11AddressInfoEENS_12FilterPolicyE@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParameters7setModeENS_4ModeE@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersC1ERKS_@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersC1Ev@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersC2ERKS_@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersC2Ev@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersD1Ev@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersD2Ev@Qt_5 5.7.0
+ _ZN31QLowEnergyAdvertisingParametersaSERKS_@Qt_5 5.7.0
  _ZNK14QBluetoothUuid11minimumSizeEv@Qt_5 5.6.0
  _ZNK14QBluetoothUuid8toUInt16EPb@Qt_5 5.6.0
  _ZNK14QBluetoothUuid8toUInt32EPb@Qt_5 5.6.0
@@ -382,6 +466,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK20QLowEnergyController12localAddressEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController13remoteAddressEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController17remoteAddressTypeEv@Qt_5 5.6.0
+ _ZNK20QLowEnergyController4roleEv@Qt_5 5.7.0
  _ZNK20QLowEnergyController5errorEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController5stateEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController8servicesEv@Qt_5 5.6.0
@@ -413,6 +498,11 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK21QBluetoothServiceInfo7isValidEv@Qt_5 5.6.0
  _ZNK21QBluetoothServiceInfo8containsEt@Qt_5 5.6.0
  _ZNK21QBluetoothServiceInfo9attributeEt@Qt_5 5.6.0
+ _ZNK21QLowEnergyServiceData15characteristicsEv@Qt_5 5.7.0
+ _ZNK21QLowEnergyServiceData16includedServicesEv@Qt_5 5.7.0
+ _ZNK21QLowEnergyServiceData4typeEv@Qt_5 5.7.0
+ _ZNK21QLowEnergyServiceData4uuidEv@Qt_5 5.7.0
+ _ZNK21QLowEnergyServiceData7isValidEv@Qt_5 5.7.0
  _ZNK23QBluetoothTransferReply10metaObjectEv@Qt_5 5.6.0
  _ZNK23QBluetoothTransferReply7managerEv@Qt_5 5.6.0
  _ZNK23QBluetoothTransferReply7requestEv@Qt_5 5.6.0
@@ -427,22 +517,49 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK24QLowEnergyCharacteristic7isValidEv@Qt_5 5.6.0
  _ZNK24QLowEnergyCharacteristiceqERKS_@Qt_5 5.6.0
  _ZNK24QLowEnergyCharacteristicneERKS_@Qt_5 5.6.0
+ _ZNK24QLowEnergyDescriptorData10isReadableEv@Qt_5 5.7.0
+ _ZNK24QLowEnergyDescriptorData10isWritableEv@Qt_5 5.7.0
+ _ZNK24QLowEnergyDescriptorData15readConstraintsEv@Qt_5 5.7.0
+ _ZNK24QLowEnergyDescriptorData16writeConstraintsEv@Qt_5 5.7.0
+ _ZNK24QLowEnergyDescriptorData4uuidEv@Qt_5 5.7.0
+ _ZNK24QLowEnergyDescriptorData5valueEv@Qt_5 5.7.0
+ _ZNK24QLowEnergyDescriptorData7isValidEv@Qt_5 5.7.0
  _ZNK25QBluetoothTransferManager10metaObjectEv@Qt_5 5.6.0
  _ZNK25QBluetoothTransferRequest7addressEv@Qt_5 5.6.0
  _ZNK25QBluetoothTransferRequest9attributeENS_9AttributeERK8QVariant@Qt_5 5.6.0
  _ZNK25QBluetoothTransferRequesteqERKS_@Qt_5 5.6.0
  _ZNK25QBluetoothTransferRequestneERKS_@Qt_5 5.6.0
+ _ZNK25QLowEnergyAdvertisingData14manufacturerIdEv@Qt_5 5.7.0
+ _ZNK25QLowEnergyAdvertisingData15discoverabilityEv@Qt_5 5.7.0
+ _ZNK25QLowEnergyAdvertisingData16manufacturerDataEv@Qt_5 5.7.0
+ _ZNK25QLowEnergyAdvertisingData17includePowerLevelEv@Qt_5 5.7.0
+ _ZNK25QLowEnergyAdvertisingData7rawDataEv@Qt_5 5.7.0
+ _ZNK25QLowEnergyAdvertisingData8servicesEv@Qt_5 5.7.0
+ _ZNK25QLowEnergyAdvertisingData9localNameEv@Qt_5 5.7.0
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez10isFinishedEv@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez10metaObjectEv@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez11errorStringEv@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez5errorEv@Qt_5_PRIVATE_API 5.6.0 1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK28QBluetoothTransferReplyBluez9isRunningEv@Qt_5_PRIVATE_API 5.6.0 1
+ _ZNK28QLowEnergyCharacteristicData10propertiesEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData11descriptorsEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData15readConstraintsEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData16writeConstraintsEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData18maximumValueLengthEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData18minimumValueLengthEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData4uuidEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData5valueEv@Qt_5 5.7.0
+ _ZNK28QLowEnergyCharacteristicData7isValidEv@Qt_5 5.7.0
  _ZNK30QBluetoothDeviceDiscoveryAgent10metaObjectEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent11errorStringEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent11inquiryTypeEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent17discoveredDevicesEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent5errorEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent8isActiveEv@Qt_5 5.6.0
+ _ZNK30QLowEnergyConnectionParameters15maximumIntervalEv@Qt_5 5.7.0
+ _ZNK30QLowEnergyConnectionParameters15minimumIntervalEv@Qt_5 5.7.0
+ _ZNK30QLowEnergyConnectionParameters18supervisionTimeoutEv@Qt_5 5.7.0
+ _ZNK30QLowEnergyConnectionParameters7latencyEv@Qt_5 5.7.0
  _ZNK31QBluetoothServiceDiscoveryAgent10metaObjectEv@Qt_5 5.6.0
  _ZNK31QBluetoothServiceDiscoveryAgent10uuidFilterEv@Qt_5 5.6.0
  _ZNK31QBluetoothServiceDiscoveryAgent11errorStringEv@Qt_5 5.6.0
@@ -450,7 +567,12 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK31QBluetoothServiceDiscoveryAgent18discoveredServicesEv@Qt_5 5.6.0
  _ZNK31QBluetoothServiceDiscoveryAgent5errorEv@Qt_5 5.6.0
  _ZNK31QBluetoothServiceDiscoveryAgent8isActiveEv@Qt_5 5.6.0
- (optional=templinst|arch=!alpha !arm64 !mips64el !ppc64 !ppc64el !s390x)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
+ _ZNK31QLowEnergyAdvertisingParameters12filterPolicyEv@Qt_5 5.7.0
+ _ZNK31QLowEnergyAdvertisingParameters15maximumIntervalEv@Qt_5 5.7.0
+ _ZNK31QLowEnergyAdvertisingParameters15minimumIntervalEv@Qt_5 5.7.0
+ _ZNK31QLowEnergyAdvertisingParameters4modeEv@Qt_5 5.7.0
+ _ZNK31QLowEnergyAdvertisingParameters9whiteListEv@Qt_5 5.7.0
+#MISSING: 5.7.0# (optional=templinst|arch=!alpha !arm64 !mips64el !ppc64 !ppc64el !s390x)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTI12QDBusContext@Qt_5 5.6.0
  _ZTI16QBluetoothServer@Qt_5 5.6.0
  _ZTI16QBluetoothSocket@Qt_5 5.6.0
@@ -483,6 +605,12 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_ZTV28QBluetoothTransferReplyBluez@Qt_5_PRIVATE_API 5.6.0 1
  _ZTV30QBluetoothDeviceDiscoveryAgent@Qt_5 5.6.0
  _ZTV31QBluetoothServiceDiscoveryAgent@Qt_5 5.6.0
+ _ZeqRK21QLowEnergyServiceDataS1_@Qt_5 5.7.0
+ _ZeqRK24QLowEnergyDescriptorDataS1_@Qt_5 5.7.0
+ _ZeqRK25QLowEnergyAdvertisingDataS1_@Qt_5 5.7.0
+ _ZeqRK28QLowEnergyCharacteristicDataS1_@Qt_5 5.7.0
+ _ZeqRK30QLowEnergyConnectionParametersS1_@Qt_5 5.7.0
+ _ZeqRK31QLowEnergyAdvertisingParametersS1_@Qt_5 5.7.0
  _Zls6QDebugN16QBluetoothSocket11SocketErrorE@Qt_5 5.6.0
  _Zls6QDebugN16QBluetoothSocket11SocketStateE@Qt_5 5.6.0
  _Zls6QDebugRK17QBluetoothAddress@Qt_5 5.6.0
