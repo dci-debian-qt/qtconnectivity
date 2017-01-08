@@ -1,5 +1,7 @@
 qtconnectivity-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Drop obsolete Breaks/Replaces on pre-5.3 Qt versions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Jan 2017 11:51:00 +0300
 
