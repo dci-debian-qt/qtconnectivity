@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0~rc2 amd64 i386
 libQt5Nfc.so.5 libqt5nfc5 #MINVER#
 | libqt5nfc5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
@@ -9,6 +9,8 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~rc2
+ Qt_5.9@Qt_5.9 5.9.0~rc2
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0 1
  _Z12qNfcChecksumPKcj@Qt_5 5.6.0
@@ -101,6 +103,7 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN14QQmlNdefRecordD0Ev@Qt_5 5.6.0
  _ZN14QQmlNdefRecordD1Ev@Qt_5 5.6.0
  _ZN14QQmlNdefRecordD2Ev@Qt_5 5.6.0
+ _ZN16QNearFieldTarget10disconnectEv@Qt_5 5.9.0~rc2
  _ZN16QNearFieldTarget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN16QNearFieldTarget11qt_metacastEPKc@Qt_5 5.6.0
  _ZN16QNearFieldTarget11sendCommandERK10QByteArray@Qt_5 5.6.0
@@ -113,6 +116,7 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN16QNearFieldTarget16readNdefMessagesEv@Qt_5 5.6.0
  _ZN16QNearFieldTarget16requestCompletedERKNS_9RequestIdE@Qt_5 5.6.0
  _ZN16QNearFieldTarget16staticMetaObjectE@Qt_5 5.6.0
+ _ZN16QNearFieldTarget17setKeepConnectionEb@Qt_5 5.9.0~rc2
  _ZN16QNearFieldTarget17writeNdefMessagesERK5QListI12QNdefMessageE@Qt_5 5.6.0
  _ZN16QNearFieldTarget19ndefMessagesWrittenEv@Qt_5 5.6.0
  _ZN16QNearFieldTarget21setResponseForRequestERKNS_9RequestIdERK8QVariantb@Qt_5 5.6.0
@@ -241,6 +245,8 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZNK14QQmlNdefRecord4typeEv@Qt_5 5.6.0
  _ZNK14QQmlNdefRecord6recordEv@Qt_5 5.6.0
  _ZNK16QNearFieldTarget10metaObjectEv@Qt_5 5.6.0
+ _ZNK16QNearFieldTarget14keepConnectionEv@Qt_5 5.9.0~rc2
+ _ZNK16QNearFieldTarget16maxCommandLengthEv@Qt_5 5.9.0~rc2
  _ZNK16QNearFieldTarget19isProcessingCommandEv@Qt_5 5.6.0
  _ZNK16QNearFieldTarget3urlEv@Qt_5 5.6.0
  _ZNK16QNearFieldTarget9RequestId7isValidEv@Qt_5 5.6.0

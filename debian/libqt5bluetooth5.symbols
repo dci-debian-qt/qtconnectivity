@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 amd64 arm64 i386 mips mips64el mipsel powerpc ppc64el s390x sparc64
+# SymbolsHelper-Confirmed: 5.9.0~rc2 amd64 i386
 libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
 | libqt5bluetooth5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
@@ -9,6 +9,8 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~rc2
+ Qt_5.9@Qt_5.9 5.9.0~rc2
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0 1
  _ZN10QByteArray7reserveEi@Qt_5 5.6.0
@@ -341,8 +343,11 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN30QBluetoothDeviceDiscoveryAgent14setInquiryTypeENS_11InquiryTypeE@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent16deviceDiscoveredERK20QBluetoothDeviceInfo@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent16staticMetaObjectE@Qt_5 5.6.0
+ _ZN30QBluetoothDeviceDiscoveryAgent25supportedDiscoveryMethodsEv@Qt_5 5.9.0~rc2
+ _ZN30QBluetoothDeviceDiscoveryAgent28setLowEnergyDiscoveryTimeoutEi@Qt_5 5.9.0~rc2
  _ZN30QBluetoothDeviceDiscoveryAgent4stopEv@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent5errorENS_5ErrorE@Qt_5 5.6.0
+ _ZN30QBluetoothDeviceDiscoveryAgent5startE6QFlagsINS_15DiscoveryMethodEE@Qt_5 5.9.0~rc2
  _ZN30QBluetoothDeviceDiscoveryAgent5startEv@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent8canceledEv@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgent8finishedEv@Qt_5 5.6.0
@@ -465,6 +470,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK20QLowEnergyController11errorStringEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController12localAddressEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController13remoteAddressEv@Qt_5 5.6.0
+ _ZNK20QLowEnergyController16remoteDeviceUuidEv@Qt_5 5.9.0~rc2
  _ZNK20QLowEnergyController17remoteAddressTypeEv@Qt_5 5.6.0
  _ZNK20QLowEnergyController4roleEv@Qt_5 5.7.0
  _ZNK20QLowEnergyController5errorEv@Qt_5 5.6.0
@@ -554,6 +560,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK30QBluetoothDeviceDiscoveryAgent11errorStringEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent11inquiryTypeEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent17discoveredDevicesEv@Qt_5 5.6.0
+ _ZNK30QBluetoothDeviceDiscoveryAgent25lowEnergyDiscoveryTimeoutEv@Qt_5 5.9.0~rc2
  _ZNK30QBluetoothDeviceDiscoveryAgent5errorEv@Qt_5 5.6.0
  _ZNK30QBluetoothDeviceDiscoveryAgent8isActiveEv@Qt_5 5.6.0
  _ZNK30QLowEnergyConnectionParameters15maximumIntervalEv@Qt_5 5.7.0
