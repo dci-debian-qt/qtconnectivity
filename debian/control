@@ -51,8 +51,6 @@ Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5bluetooth5, ${misc:Depends}, ${shlibs:Depends}
-Breaks: qtdeclarative5-qtbluetooth-plugin (<< 5.2.1-3~)
-Replaces: qtdeclarative5-qtbluetooth-plugin (<< 5.2.1-3~)
 Description: Qt Connectivity module - Bluetooth QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -75,8 +73,6 @@ Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5nfc5, ${misc:Depends}, ${shlibs:Depends}
-Breaks: qtdeclarative5-qtnfc-plugin (<< 5.2.1-3~)
-Replaces: qtdeclarative5-qtnfc-plugin (<< 5.2.1-3~)
 Description: Qt Connectivity module - NFC QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

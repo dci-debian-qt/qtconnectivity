@@ -5,6 +5,20 @@ qtconnectivity-opensource-src (5.9.0~rc.2-1) UNRELEASED; urgency=medium
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 16:38:28 -0500
 
+qtconnectivity-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Drop obsolete Breaks/Replaces on pre-5.3 Qt versions.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Jan 2017 11:51:00 +0300
+
+qtconnectivity-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
+
+  * Release to unstable.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Nov 2016 10:32:29 -0300
+
 qtconnectivity-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   * New upstream snapshot.
