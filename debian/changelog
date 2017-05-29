@@ -1,3 +1,10 @@
+qtconnectivity-opensource-src (5.9.0~rc.2-1) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 16:38:28 -0500
+
 qtconnectivity-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   * New upstream snapshot.
