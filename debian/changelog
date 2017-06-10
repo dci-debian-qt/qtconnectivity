@@ -10,15 +10,9 @@ qtconnectivity-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Migrate to automatic dbgsym packages.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 16:38:28 -0500
-
-qtconnectivity-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
-
-  [ Dmitry Shachnev ]
   * Drop obsolete Breaks/Replaces on pre-5.3 Qt versions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Jan 2017 11:51:00 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 16:38:28 -0500
 
 qtconnectivity-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
