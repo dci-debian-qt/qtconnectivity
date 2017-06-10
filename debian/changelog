@@ -6,7 +6,7 @@ qtconnectivity-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove commented out symbol in libqt5bluetooth5.symbols. It was wrongly
-    commited.
+    committed.
 
   [ Dmitry Shachnev ]
   * Migrate to automatic dbgsym packages.
