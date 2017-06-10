@@ -1,4 +1,6 @@
-qtconnectivity-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.9.0-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Simon Quigley ]
   * New upstream release.
@@ -13,7 +15,7 @@ qtconnectivity-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   * Drop obsolete Breaks/Replaces on pre-5.3 Qt versions.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 16:38:28 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Jun 2017 14:57:37 -0500
 
 qtconnectivity-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
