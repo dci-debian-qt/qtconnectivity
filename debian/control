@@ -8,15 +8,15 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9.0.0),
+Build-Depends: debhelper (>= 9.20160114~),
                libbluetooth-dev [linux-any],
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.9.0~beta+dfsg~),
-               qtbase5-private-dev (>= 5.9.0~beta+dfsg~),
+               qtbase5-dev (>= 5.9.0+dfsg~),
+               qtbase5-private-dev (>= 5.9.0+dfsg~),
                qtdeclarative5-private-dev (>= 5.9.0~beta~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0~beta~),
-                     qtbase5-doc-html (>= 5.9.0~beta+dfsg~),
+                     qtbase5-doc-html (>= 5.9.0+dfsg~),
                      qttools5-dev-tools (>= 5.9.0~beta~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
@@ -105,19 +105,6 @@ Description: Qt 5 Connectivity examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 Connectivity examples.
-
-Package: qtconnectivity5-dbg
-Priority: extra
-Architecture: linux-any
-Multi-Arch: same
-Section: debug
-Depends: libqt5bluetooth5 (= ${binary:Version}), ${misc:Depends}
-Description: Qt Connectivity library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 Connectivity
- libraries.
 
 Package: qtconnectivity5-doc
 Priority: extra

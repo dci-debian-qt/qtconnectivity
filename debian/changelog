@@ -1,20 +1,21 @@
-qtconnectivity-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.9.0-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Simon Quigley ]
   * New upstream release.
   * Update debian/copyright.
 
-  [ Jonathan Riddell ]
-  * New release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:10 +0100
-
-qtconnectivity-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove commented out symbol in libqt5bluetooth5.symbols. It was wrongly
+    committed.
 
   [ Dmitry Shachnev ]
+  * Migrate to automatic dbgsym packages.
   * Drop obsolete Breaks/Replaces on pre-5.3 Qt versions.
+  * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Jan 2017 11:51:00 +0300
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Jun 2017 14:57:37 -0500
 
 qtconnectivity-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
