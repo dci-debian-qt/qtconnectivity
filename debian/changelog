@@ -1,3 +1,9 @@
+qtconnectivity-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+
+  * Neon build
+
+ -- Jonathan Riddell <jr@jriddell.org>  Mon, 03 Jul 2017 15:58:58 +0100
+
 qtconnectivity-opensource-src (5.9.0-1) experimental; urgency=medium
 
   * Team upload.
