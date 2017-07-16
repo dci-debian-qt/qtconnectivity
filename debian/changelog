@@ -2,6 +2,7 @@ qtconnectivity-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update libqt5bluetooth5.symbols from 5.9.0 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Jul 2017 22:40:32 +0300
 
