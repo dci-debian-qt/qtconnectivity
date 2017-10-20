@@ -1,6 +1,5 @@
-qtconnectivity-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.9.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/libqt5bluetooth5.symbols from buildds’ logs.
   * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
@@ -11,7 +10,7 @@ qtconnectivity-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   * Update debhelper compatibility level to 10.
   * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Oct 2017 15:29:05 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 20 Oct 2017 15:59:26 +0300
 
 qtconnectivity-opensource-src (5.9.1-2) unstable; urgency=medium
 
