@@ -7,6 +7,7 @@ qtconnectivity-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
     - Update libqt5bluetooth5-bin.install.
     - Make libqt5bluetooth5-bin Multi-Arch: foreign.
     - Provide a compatibility symlink for old sdpscanner location.
+  * Bump Qt build-dependencies to 5.9.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Oct 2017 15:29:05 +0300
 
