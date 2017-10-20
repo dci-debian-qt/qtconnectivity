@@ -9,7 +9,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper
+	dh $@ --fail-missing --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	# Be sure to regenerate the DBus cpp files
