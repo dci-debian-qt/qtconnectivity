@@ -8,17 +8,17 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9.20160114~),
+Build-Depends: debhelper (>= 10),
                libbluetooth-dev [linux-any],
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.9.0+dfsg~),
-               qtbase5-private-dev (>= 5.9.0+dfsg~),
-               qtdeclarative5-private-dev (>= 5.9.0~beta~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0~beta~),
-                     qtbase5-doc-html (>= 5.9.0+dfsg~),
-                     qttools5-dev-tools (>= 5.9.0~beta~)
-Standards-Version: 3.9.8
+               qtbase5-dev (>= 5.9.2+dfsg~),
+               qtbase5-private-dev (>= 5.9.2+dfsg-3~),
+               qtdeclarative5-private-dev (>= 5.9.2~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2~),
+                     qtbase5-doc-html (>= 5.9.2+dfsg~),
+                     qttools5-dev-tools (>= 5.9.2-2~)
+Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtconnectivity.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtconnectivity.git
@@ -37,7 +37,7 @@ Description: Qt Connectivity Bluetooth module
 Package: libqt5bluetooth5-bin
 Architecture: linux-any
 Section: utils
-Multi-Arch: same
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Connectivity Bluetooth module helper binaries
@@ -107,7 +107,6 @@ Description: Qt 5 Connectivity examples
  This package contains Qt 5 Connectivity examples.
 
 Package: qtconnectivity5-doc
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -119,7 +118,6 @@ Description: Qt 5 Sensors documentation
  modules (Qt Bluetooth and Qt NFC).
 
 Package: qtconnectivity5-doc-html
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
