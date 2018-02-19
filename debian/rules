@@ -9,7 +9,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper
+	dh $@ --fail-missing --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	# Be sure to regenerate the DBus cpp files
@@ -33,6 +33,10 @@ override_dh_auto_install-arch:
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+
+override_dh_link:
+	dh_link
+	dh_link -plibqt5bluetooth5-bin usr/lib/qt5/bin/sdpscanner usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/sdpscanner
 
 override_dh_auto_test-indep:
 
