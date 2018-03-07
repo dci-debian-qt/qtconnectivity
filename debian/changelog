@@ -8,6 +8,8 @@ qtconnectivity-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
   * Fix debian/watch to follow new upstream naming scheme.
+  * Update Vcs-[Git Browser] to follow the new repositories in
+    salsa.debian.org.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 23:50:27 +0300
 
