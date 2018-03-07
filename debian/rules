@@ -12,7 +12,8 @@ export QT_SELECT := qt5
 
 override_dh_auto_configure:
 	# Be sure to regenerate the DBus cpp files
-	cd src/bluetooth/bluez/ ; ./generate
+	# Commented out until https://bugreports.qt.io/browse/QTBUG-66936 gets fixed.
+	#cd src/bluetooth/bluez/ ; ./generate
 	# Now call qmake
 	dh_auto_configure -- QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
 		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig
