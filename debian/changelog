@@ -16,6 +16,7 @@ qtconnectivity-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Update symbols files with current build log.
   * Build and run unit tests.
   * Update debian/copyright.
+  * Update Standards-Version to 4.1.3. No changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 23:50:27 +0300
 
