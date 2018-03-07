@@ -16,7 +16,8 @@ override_dh_auto_configure:
 	#cd src/bluetooth/bluez/ ; ./generate
 	# Now call qmake
 	dh_auto_configure -- QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
-		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig
+		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig \
+		QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
