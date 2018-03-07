@@ -6,6 +6,7 @@ qtconnectivity-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+    - Bump Qt build dependencies.
   * Fix debian/watch to follow new upstream naming scheme.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 23:50:27 +0300
