@@ -1,4 +1,4 @@
-qtconnectivity-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.10.1-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Fix FTCBFS: use dh_auto_configure provided by debhelper, pass custom
@@ -20,7 +20,7 @@ qtconnectivity-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Remove extra whitespace in 5.3.1-3 changelog.
   * Bump compat version to 11.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 23:50:27 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 07 Mar 2018 13:09:43 -0300
 
 qtconnectivity-opensource-src (5.9.2-2) unstable; urgency=medium
 
