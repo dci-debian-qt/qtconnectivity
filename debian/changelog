@@ -1,8 +1,11 @@
-qtconnectivity-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Fix FTCBFS: use dh_auto_configure provided by debhelper, pass custom
     PKG_CONFIG_LIBDIR and QMAKE_QMAKE (closes: #880931).
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 23:50:27 +0300
 
