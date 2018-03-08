@@ -108,6 +108,7 @@ Description: Qt 5 Connectivity examples
 
 Package: qtconnectivity5-doc
 Architecture: all
+Build-Profiles: <!nodoc>
 Section: doc
 Depends: ${misc:Depends}
 Description: Qt 5 Sensors documentation
@@ -119,6 +120,7 @@ Description: Qt 5 Sensors documentation
 
 Package: qtconnectivity5-doc-html
 Architecture: all
+Build-Profiles: <!nodoc>
 Section: doc
 Depends: ${misc:Depends}
 Description: Qt 5 Sensors HTML documentation
