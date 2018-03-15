@@ -12,9 +12,6 @@ export QT_SELECT := qt5
 	dh $@ --fail-missing --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	# Be sure to regenerate the DBus cpp files
-	cd src/bluetooth/bluez/ ; ./generate
-	# Now call qmake
 	qmake
 
 override_dh_auto_build-indep:
