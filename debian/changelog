@@ -1,6 +1,7 @@
 qtconnectivity-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump Qt build-dependencies to 5.9.5.
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 16 Apr 2018 09:57:08 +0300
 
