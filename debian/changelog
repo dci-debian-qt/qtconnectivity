@@ -1,3 +1,34 @@
+qtconnectivity-opensource-src (5.10.1-2) unstable; urgency=medium
+
+  * Add Build-Profiles: <!nodoc> to doc packages too.
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 17:52:51 -0300
+
+qtconnectivity-opensource-src (5.10.1-1) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Fix FTCBFS: use dh_auto_configure provided by debhelper, pass custom
+    PKG_CONFIG_LIBDIR and QMAKE_QMAKE (closes: #880931).
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Fix debian/watch to follow new upstream naming scheme.
+  * Update Vcs-[Git Browser] to follow the new repositories in
+    salsa.debian.org.
+  * Add support for the nodoc build profile.
+  * Do not regenerate bluez DBus interfaces, see
+    https://bugreports.qt.io/browse/QTBUG-66936
+  * Update symbols files with current build log.
+  * Build and run unit tests.
+  * Update debian/copyright.
+  * Update Standards-Version to 4.1.3. No changes required.
+  * Remove extra whitespace in 5.3.1-3 changelog.
+  * Bump compat version to 11.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 07 Mar 2018 13:09:43 -0300
+
 qtconnectivity-opensource-src (5.10.0-0neon) xenial; urgency=medium
 
   * 5.10
@@ -235,7 +266,7 @@ qtconnectivity-opensource-src (5.3.1-3) unstable; urgency=medium
 
 qtconnectivity-opensource-src (5.3.1-2) unstable; urgency=medium
 
-  * Add libbluetooth-dev and pkg-config build dependencies to build with 
+  * Add libbluetooth-dev and pkg-config build dependencies to build with
     bluez support (Closes: #757271)
   * Add the new symbols
 
