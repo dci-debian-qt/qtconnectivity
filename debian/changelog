@@ -29,20 +29,6 @@ qtconnectivity-opensource-src (5.10.1-1) experimental; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 07 Mar 2018 13:09:43 -0300
 
-qtconnectivity-opensource-src (5.10.0-0neon) xenial; urgency=medium
-
-  * 5.10
-
- -- Bhushan Shah <bshah@kde.org>  Mon, 19 Feb 2018 05:37:19 +0000
-
-qtconnectivity-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
-
-  * Neon build
-  * New release
-  * new release
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:09 +0000
-
 qtconnectivity-opensource-src (5.9.2-2) unstable; urgency=medium
 
   * Upload to unstable.
