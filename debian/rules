@@ -3,7 +3,9 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-include /usr/share/dpkg/architecture.mk
+export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 export QT_SELECT := qt5
 
@@ -15,7 +17,7 @@ override_dh_auto_configure:
 	# Commented out until https://bugreports.qt.io/browse/QTBUG-66936 gets fixed.
 	#cd src/bluetooth/bluez/ ; ./generate
 	# Now call qmake
-	dh_auto_configure -- QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
+	qmake QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
 		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig \
 		QT_BUILD_PARTS+=tests
 
