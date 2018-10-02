@@ -1,13 +1,12 @@
-qtconnectivity-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
+qtconnectivity-opensource-src (5.11.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Fix short descriptions of documentation packages.
   * Update debian/copyright.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Oct 2018 15:10:46 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 02 Oct 2018 16:53:04 +0300
 
 qtconnectivity-opensource-src (5.11.1-2) unstable; urgency=medium
 
