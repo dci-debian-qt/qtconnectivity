@@ -111,7 +111,7 @@ Architecture: all
 Build-Profiles: <!nodoc>
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt 5 Sensors documentation
+Description: Qt 5 Connectivity documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -123,7 +123,7 @@ Architecture: all
 Build-Profiles: <!nodoc>
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt 5 Sensors HTML documentation
+Description: Qt 5 Connectivity HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
