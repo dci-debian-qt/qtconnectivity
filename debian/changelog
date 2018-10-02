@@ -4,6 +4,7 @@ qtconnectivity-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Fix short descriptions of documentation packages.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Oct 2018 15:10:46 +0300
 

@@ -3,15 +3,15 @@ Upstream-Name: qtconnectivity-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2015-2017 The Qt Company Ltd.
+Copyright: 2015-2018 The Qt Company Ltd.
            2012-2016 BlackBerry Limited (formerly Research In Motion)
            2016 Centria research and development
            2015-2016 BasysKom GmbH
-License: LGPL-3 or GPL-2+ or GPL-3+
+License: LGPL-3 or GPL-2+
 
 Files: src/nfc/doc/snippets/*
        src/bluetooth/doc/snippets/*
-Copyright: 2015 The Qt Company Ltd.
+Copyright: 2017 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: debian/*
@@ -22,18 +22,18 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
            2014-2018 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-           2015-2017 Dmitry Shachnev <mitya57@debian.org>
+           2015-2018 Dmitry Shachnev <mitya57@debian.org>
            2018 Simon Quigley <tsimonq2@ubuntu.com>
-License: LGPL-3 or GPL-2+ or GPL-3+
+License: LGPL-3 or GPL-2+
 
 Files: examples/*
-Copyright: 2015-2018 The Qt Company Ltd.
+Copyright: 2017 The Qt Company Ltd.
            2013-2014 BlackBerry Limited
 License: BSD-3-clause
 
 Files: src/nfc/doc/snippets/doc_src_qtnfc.*
 Copyright: 2013 Aaron McCarthy <mccarthy.aaron@gmail.com>
-           2015 The Qt Company Ltd.
+           2017 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: src/android/bluetooth/src/org/qtproject/qt5/android/bluetooth/QtBluetoothBroadcastReceiver.java
@@ -41,30 +41,33 @@ Files: src/android/bluetooth/src/org/qtproject/qt5/android/bluetooth/QtBluetooth
        src/bluetooth/*_android.cpp
 Copyright: 2016 Lauri Laanmets (Proekspert AS) <lauri.laanmets@eesti.ee>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+ or GPL-3+
+License: LGPL-3 or GPL-2+
 
 Files: src/bluetooth/bluez/hcimanager.cpp
        src/bluetooth/qlowenergycontroller_bluez.cpp
        src/bluetooth/qlowenergycontroller_osx*
        src/bluetooth/qlowenergyservice.*
+       src/bluetooth/qlowenergyservice_osx.mm
 Copyright: 2016 Javier S. Pedro <maemo@javispedro.com>
-           2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+ or GPL-3+
+           2016-2017 The Qt Company Ltd.
+License: LGPL-3 or GPL-2+
 
 Files: src/nfc/qnearfieldtarget_neard_p.cpp
        src/nfc/qnearfieldtarget_p.cpp
        src/nfc/qnearfieldtarget_android_p.cpp
 Copyright: 2017 Governikus GmbH & Co. K
-License: LGPL-3 or GPL-2+ or GPL-3+
+License: LGPL-3 or GPL-2+
 
-Files: tests/*
-Copyright: 2016 The Qt Company Ltd.
+Files: config.tests/*
+       tests/*
+Copyright: 2016-2017 The Qt Company Ltd.
            2016 BlackBerry Limited (formerly Research In Motion)
 License: GPL-3 with Qt-1.0 exception
 
 Files: *.qdoc
-Copyright: 2015 The Qt Company Ltd.
+Copyright: 2017 The Qt Company Ltd.
            2013 Aaron McCarthy <mccarthy.aaron@gmail.com>
+           2015 BasysKom GmbH
 License: GFDL-NIV-1.3
 
 License: GPL-2+
@@ -163,16 +166,3 @@ License: GFDL-NIV-1.3
  .
  On Debian systems, the complete text of the GNU Free Documentation
  License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
-
-License: GPL-3+
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License version 3 or
- any later version as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 3 can be found in /usr/share/common-licenses/GPL-3.
